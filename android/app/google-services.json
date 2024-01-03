@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "878304388350",
+    "project_id": "ocr-license-a2d66",
+    "storage_bucket": "ocr-license-a2d66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878304388350:android:f8cc928351fec95a5eb1af",
+        "android_client_info": {
+          "package_name": "com.example.ocr_license_plate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy2vvhYSmwclicszY1mGNK4OYqqo_u1DQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

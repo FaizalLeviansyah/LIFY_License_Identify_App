@@ -1,0 +1,39 @@
+name: ocr_license_plate
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  cloud_firestore: ^4.13.6
+  firebase_auth: ^4.15.2
+  firebase_core: ^2.24.2
+  flutter:
+    sdk: flutter
+  
+  http: ^1.1.0
+  image_cropper: ^5.0.1
+  image_picker: ^1.0.5
+  google_mlkit_text_recognition: ^0.11.0
+  permission_handler: ^11.0.1
+  salomon_bottom_bar: ^3.3.2
+  firebase_storage: ^11.5.6
+  path: ^1.8.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  fonts:
+  - family: Poppins
+    fonts: 
+    - asset: assets/fonts/Poppins-SemiBold.ttf
+  uses-material-design: true
+
+  assets:
+  - assets/Lify_logo.jpg

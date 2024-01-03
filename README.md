@@ -1,5 +1,5 @@
 # LIFY (LICENSE IDENTIFY) OCR APP
-A new Flutter project.
+This project is to full fill the score of MOBILE PROGRAMMING COURSE
 
 # Group 2 :
 1. Adinda Rahajeng Silvia Pranesti/02/2141720158

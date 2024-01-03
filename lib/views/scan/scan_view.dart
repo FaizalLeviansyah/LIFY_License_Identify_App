@@ -157,11 +157,11 @@ class _ScanViewState extends State<ScanView> {
                                       width: 15,
                                       height: 15,
                                       child: CircularProgressIndicator(
-                                        color: Color.fromRGBO(248, 215, 166, 1),
+                                        color: Color.fromRGBO(0, 0, 0, 1),
                                       ),
                                     )
                                   : const Text(
-                                      'Scan photo',
+                                      'Scan Below',
                                       style: TextStyle(
                                           color:
                                               Color.fromRGBO(248, 215, 166, 1),
@@ -190,7 +190,7 @@ class _ScanViewState extends State<ScanView> {
                                 ),
                               ),
                               child: const Text(
-                                'Scan Photo Offline',
+                                'Scan Photo Now!!',
                                 style: TextStyle(
                                     color: Color.fromRGBO(248, 215, 166, 1),
                                     fontSize: 15),
@@ -205,7 +205,7 @@ class _ScanViewState extends State<ScanView> {
               ),
               Text(
                 ocrResult,
-                style: const TextStyle(color: Colors.white),
+                style: const TextStyle(color: Color.fromARGB(255, 0, 0, 0)),
               ),
               ocrResult == ''
                   ? const SizedBox(
@@ -388,7 +388,7 @@ class _ScanViewState extends State<ScanView> {
       return await showErrorDialog(context, 'No photo yet, can not scan');
     }
     var request = http.MultipartRequest(
-        'POST', Uri.parse('http://ikmalfaris50.pythonanywhere.com/'));
+        'POST', Uri.parse('http://faizalleviansyah.pythonanywhere.com/'));
     request.files
         .add(await http.MultipartFile.fromPath('image', imageFile!.path));
     try {
